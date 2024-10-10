@@ -20,7 +20,7 @@ const Footer: React.FC<FooterProps> = ({ navigation }) => {
 
         <nav
           aria-label="Footer"
-          className="-mb-6 columns-2  flex  justify-center space-x-12"
+          className="-mb-6 columns-2  flex  justify-center space-x-10 lg:space-x-12"
         >
           {navigation.map((item) => (
             <div key={item.name} className="pb-6">

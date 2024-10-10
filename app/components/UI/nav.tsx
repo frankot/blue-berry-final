@@ -66,15 +66,15 @@ export default function Nav() {
                 </button>
               </Link>
             </div>
-            <div className="lg:hidden flex items-center ">
+            <div className="lg:hidden flex items-center mt-2">
               <button
                 onClick={() => setMenuOpen(!menuOpen)}
-                className="text-gray-800 "
+                className="text-gray-900 "
               >
                 {menuOpen ? (
-                  <XMarkIcon className="h-6 w-6" />
+                  <XMarkIcon className="size-9" />
                 ) : (
-                  <Bars3Icon className="h-6 w-6" />
+                  <Bars3Icon className="size-9" />
                 )}
               </button>
             </div>
