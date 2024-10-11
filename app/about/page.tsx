@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import CaruDesk from "../components/caruDesk";
 import Pattern from "../components/UI/pattern";
-import abImg from "../../public/static/images/aboutPholder.jpg";
+import abImg from "../../public/static/images/aboutPholder1.jpg";
 import CarouselMobile from "../components/caruMobile";
 
 const photos = [
@@ -62,7 +62,7 @@ export default function About() {
               <Image
                 alt=""
                 src={abImg}
-                className="rounded bg-gray-50 object-cover"
+                className="rounded bg-gray-50 "
               />
             </figure>
             <div id="serv" className="mb-20"></div>

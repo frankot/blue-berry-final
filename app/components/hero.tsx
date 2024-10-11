@@ -11,7 +11,7 @@ export default function Hero() {
         className="w-full h-full object-cover mt-20"
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-start">
-        <div className=" text-white   max-w-6xl mx-4 sm:mx-10 xl:mx-auto xl:px-5 overflow-hidden">
+        <div className=" text-white   max-w-6xl mx-3 sm:mx-10 xl:mx-auto xl:px-5 overflow-hidden">
           <p className="uppercase text-sm sm:text-base">
             Berry Studio - Biuro Projektowe Instalacji Budynkowych
           </p>
