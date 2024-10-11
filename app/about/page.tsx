@@ -79,8 +79,8 @@ export default function About() {
                   <strong className="font-semibold text-gray-900">
                     Budownictwo Biurowe
                   </strong>{" "}
-                  Realizujemy nowoczesne projekty biurowe, które łączą
-                  funkcjonalność z estetyką, dostosowując się do potrzeb
+                  Realizujemy nowoczesne projekty przestrzeni biurowych, które
+                  łączą funkcjonalność z estetyką, dostosowując się do potrzeb
                   klientów.
                 </span>
               </li>
@@ -108,7 +108,7 @@ export default function About() {
                   </strong>{" "}
                   Kreujemy przestrzenie handlowe, które łączą innowacyjne
                   rozwiązania z atrakcyjnym designem, tworząc miejsca
-                  sprzyjające zakupom i interakcji społecznej.
+                  sprzyjające usługom.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -120,8 +120,9 @@ export default function About() {
                   <strong className="font-semibold text-gray-900">
                     Służba zdrowia
                   </strong>{" "}
-                  Specjalizujemy się w budowie obiektów medycznych, zapewniając
-                  najwyższe standardy bezpieczeństwa i funkcjonalności.
+                  Specjalizujemy się w projektowaniu obiektów medycznych,
+                  zapewniając najwyższe standardy bezpieczeństwa i
+                  funkcjonalności.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -186,7 +187,7 @@ export default function About() {
         </div>
       </div>
       <CaruDesk photos={photos} />
-      <CarouselMobile photos={photos}/>
+      <CarouselMobile photos={photos} />
     </Pattern>
   );
 }

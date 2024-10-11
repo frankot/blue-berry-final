@@ -20,7 +20,7 @@ const Footer: React.FC<FooterProps> = ({ navigation }) => {
 
         <nav
           aria-label="Footer"
-          className="-mb-6 columns-2  flex  justify-center space-x-10 lg:space-x-12"
+          className="-mb-6 columns-2  flex  justify-center space-x-9 lg:space-x-12"
         >
           {navigation.map((item) => (
             <div key={item.name} className="pb-6">
@@ -33,7 +33,7 @@ const Footer: React.FC<FooterProps> = ({ navigation }) => {
             </div>
           ))}
         </nav>
-        <Image src={logo} alt="BlueberryStudio Logo" height="300" width="300"  className="mx-auto my-10"/>
+        <Image src={logo} alt="BlueberryStudio Logo" height="300" width="300"  className="mx-auto my-10 h-12 lg:h-auto w-auto"/>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
           &copy; 2024 Berry Studio, Inc. All rights reserved.
         </p>
