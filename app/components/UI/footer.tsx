@@ -33,7 +33,7 @@ const Footer: React.FC<FooterProps> = ({ navigation }) => {
             </div>
           ))}
         </nav>
-        <Image src={logo} alt="BlueberryStudio Logo" height="300" width="300"  className="mx-auto my-10 h-12 lg:h-auto w-auto"/>
+        <Image src={logo} alt="BlueberryStudio Logo" height="300" width="300"  className="mx-auto my-10 h-12 lg:pr-8 lg:h-20 w-auto"/>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
           &copy; 2024 Berry Studio, Inc. All rights reserved.
         </p>

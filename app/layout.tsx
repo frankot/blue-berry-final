@@ -5,8 +5,8 @@ import Footer from "./components/UI/footer";
 import { Montserrat } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "BlueberryStudio",
-  description: "Biuro Projektowe Instalacji Sanitarnych",
+  title: "Berry Studio",
+  description: "Biuro Projektowe Instalacji Budynkowych",
 };
 
 const navigation = [

@@ -8,7 +8,10 @@ export default function Hero() {
       <Image
         src={heroImg}
         alt="Architecture firm background hero page img"
+        height={755}
+        width={1440}
         className="w-full h-full object-cover mt-20"
+        priority
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-start">
         <div className=" text-white   max-w-6xl mx-3 sm:mx-10 xl:mx-auto xl:px-5 overflow-hidden">
