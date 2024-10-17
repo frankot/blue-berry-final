@@ -4,11 +4,12 @@ import Link from "next/link";
 import uslugowe from "../../public/static/images/uslugowe.jpg";
 import sportowe from "../../public/static/images/sportowe1.jpg";
 import tech from "../../public/static/images/techo.jpg";
+import mieszk from "../../public/static/images/mieszkalne.jpg"
 
 const services = [
   {
     name: "Budownictwo mieszkalne",
-    url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+    url: mieszk,
   },
   {
     name: "Budownictwo biurowe",
