@@ -8,11 +8,11 @@ import abImg from "../../public/static/images/aboutPholder1.jpg";
 import CarouselMobile from "../components/caruMobile";
 
 const photos = [
-  "/static/images/carousel/caru1.jpg",
-  "/static/images/carousel/caru2.jpg",
-  "/static/images/carousel/caru3.jpg",
-  "/static/images/carousel/caru4.jpg",
-  "/static/images/carousel/caru5.jpg",
+  "/static/images/carousel/caru1.webp",
+  "/static/images/carousel/caru2.webp",
+  "/static/images/carousel/caru3.webp",
+  "/static/images/carousel/caru4.webp",
+  "/static/images/carousel/caru5.webp",
 ];
 
 export default function About() {

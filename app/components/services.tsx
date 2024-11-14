@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import uslugowe from "../../public/static/images/uslugowe.jpg";
-import sportowe from "../../public/static/images/sportowe1.jpg";
-import tech from "../../public/static/images/techo.jpg";
-import mieszk from "../../public/static/images/mieszkalne.jpg"
+import uslugowe from "../../public/static/images/uslugowe.webp";
+import sportowe from "../../public/static/images/sportowe1.webp";
+import tech from "../../public/static/images/techo.webp";
+import mieszk from "../../public/static/images/mieszkalne.webp"
 
 const services = [
   {

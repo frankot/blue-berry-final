@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import shortImg from "../../public/static/images/shortAb.jpg";
+import shortImg from "../../public/static/images/shortAb.webp";
 
 export default function ShortAb() {
   return (
