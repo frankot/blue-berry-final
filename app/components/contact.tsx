@@ -29,7 +29,7 @@ export default function Contact() {
 
               <p className="flex items-center">
                 <MapPinIcon className="mr-2 size-6" color="#371d6b" /> ul.
-                Popiełuszki 19/21 lok.314 <br />
+                Popiełuszki 19/21 lok.313 <br />
                 01-595 Warszawa
               </p>
             </div>
